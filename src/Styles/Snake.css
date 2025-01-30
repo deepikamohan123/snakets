@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    width: 500px;
+
+
+}
+
+.container div{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+img{
+    left: -498px;
+    top: -515px;
+    width: 515px;
+    position: relative;
+}
+
+#dice-box {
+  display: grid;
+   
+    position: absolute;
+    
+
+  }
+
+  #p1,
+  #p2 {
+    margin: -9px 9px;
+    z-index: 99;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: yellow;
+    position: relative;
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+    font-size: larger;
+    
+  }
+  #p2{
+    background-color: blue;
+  }
+
+
+
+#dice{
+    margin-top: -500px;
+    width: 40px;
+    font-size: larger;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 100px;
+    color: black;
+    padding: 10px;
+}
+
+
+
+
